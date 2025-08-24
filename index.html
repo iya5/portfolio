@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/i-icon.png">
+    <title>About Iya</title>
+</head>
+<body>
+    <div class="min-h-screen bg-[#111111] text-white">
+        <div class="flex flex-col lg:flex-row">
+            <!-- Left side: About me -->
+            <section class="xl:w-2/5 h-auto lg:h-screen p-4 lg:p-8 xl:p-12 xl:pl-[10%] flex flex-col justify-between min-w-[300px] max-w-[800px] mb-4 lg:mb-0">
+                <div>
+                    <!-- Title card -->
+                    <header>
+                        <div class="mb-4 relative w-[150px] h-[150px] overflow-hidden rounded-full">
+                            <img src="assets/images/me.jpg" sizes="100vw" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;color:transparent">
+                        </div>
+                        <h1 class="text-4xl font-bold mb-2">Anndrea Dioneda</h1>
+                        <h2 class="text-2xl text-gray-400 mb-2">UI/UX Engineer</h2>
+                        <h3 class="text-lg text-gray-400 mb-5">📍 Philippines</h3>
+                        <p class="text-gray-300 text-s">A Student interested in Front-end<br> Development and UI/UX Design</p>
+                    </header>
+                    
+                    <!-- Contact Card -->
+                    <div class="mt-6">
+                        <div class="flex space-x-3 items-center">
+
+                            <button data-popover-target="popover-default" data-popover-placement="right" type="button" class="flex items-center bg-[#111111] hover:invert text-white hover:invert px-3 py-1 rounded transition duration-300 mr-4 border border-white group">
+                                <img src="assets/images/icons/download-icon.svg" alt="Download Icon" class="pr-2 w-5 h-4 transition duration-300 group-hover:text-white">
+                                Resume
+                            </button>
+
+                            <div
+                                data-popover
+                                id="popover-default"
+                                role="tooltip"
+                                class="absolute z-10 invisible opacity-0 inline-block w-64 text-sm text-white bg-black rounded-lg shadow-xs border border-red-600 transition-opacity duration-300"
+                            >
+                            <div class="px-3 py-2 bg-red-500 border border-red-700 rounded-t-lg">
+                                <h3 class="text-white font-semibold">Resume in Progress!</h3>
+                            </div>
+                            <div class="px-3 py-2">
+                                <p>Hello, I don't have a proper one yet but you'll see it in the future!</p>
+                            </div>
+                            <div data-popper-arrow></div>
+                            </div>
+
+
+                            <a href="https://github.com/ddalki1205" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white">
+                                
+                                <img src="assets/images/icons/github-icon.svg" alt="GitHub Icon" class="opacity-70 h-6 mr-2 hover:opacity-100 invert duration-150">
+                            </a>
+
+                            <a href="mailto:iya@tutanota.de" target="_blank" rel="noopener noreferrer" class="text-gray hover:text-white">
+                                <svg class="opacity-70 h-6 mr-2 hover:opacity-100 duration-150" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/>
+                                </svg>
+                            </a>
+                            
+                            <!--<a href="" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white">
+                                <img src="assets/images/icons/linkedin-icon.svg" alt="GitHub Icon" class="opacity-70 h-6 mr-2 hover:opacity-100 invert duration-150">
+                            </a>-->
+                    
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right side -->
+            <section class="w-full xl:w-3/5 min-h-screen mx-auto lg:mx-4 xl:ml-[-8%]">
+                <main class="p-6 xl:p-12 xl:pr-[10%]">
+                    <!-- About me -->
+                    <div style="opacity: 1; transform: none;">
+                        <section class="mb-8">
+                            <h2 class="text-3xl font-bold mb-6 text-gray-100">About me</h2>
+                            <p class="text-gray-300 mb-4">
+                                I'm currently majoring in <span class="font-semibold">Computer Science</span> with an interest in <span class="font-semibold ">Front-end development</span>  and <span class="font-semibold">UI/UX Design.</span> I specialize in UI/UX design for my projects, with a foundation in Arts & Design before my Computer Science studies.
+                            </p>
+                        </section>
+                    </div>
+                    
+                    <!-- Technologies -->
+                    <div style="opacity: 1; transform: none;">
+                        <section>
+                            <h2 class="text-3xl font-bold mb-6 text-gray-100">Technologies</h2>
+                            
+                            <!-- Languages -->
+                            <div class="mb-4">
+                                <div class="flex flex-wrap">
+                                    <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-400 mr-2 mb-2 rounded-full">Javascript</span>
+                                    <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-400 mr-2 mb-2 rounded-full">Python</span>
+                                    <span class="inline-block bg-violet-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-violet-400 mr-2 mb-2 rounded-full">PHP</span>
+                                    <span class="inline-block bg-blue-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-blue-400 mr-2 mb-2 rounded-full">MariaDB</span>
+                                    <span class="inline-block bg-rose-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-rose-400 mr-2 mb-2 rounded-full">Apache Web Server</span>
+                                    <span class="inline-block bg-amber-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-amber-400 mr-2 mb-2 rounded-full">SQL</span>
+                                    <span class="inline-block bg-orange-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-orange-400 mr-2 mb-2 rounded-full">Git</span>
+                                    <span class="inline-block bg-cyan-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-cyan-400 mr-2 mb-2 rounded-full">Tailwind</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Projects -->
+                    <div style="opacity: 1; transform: none;">
+                        <section class="mb-12">
+                            <h2 class="text-3xl font-bold mb-6 text-gray-100">Projects</h2>
+
+                            <ul class="space-y-12">
+
+                                <!-- Student Registration System -->
+                                <li class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600">
+                                    <div class="flex flex-col sm:flex-row items-stretch">
+                                        <!-- Image Container -->
+                                        <div class="sm:w-1/3 mb-4 sm:mb-0 sm:mr-6">
+                                            <div class="h-full w-full overflow-hidden rounded-lg">
+                                                <img src="assets/images/projects/student-regis.png" 
+                                                     class="w-full h-full object-cover" 
+                                                     alt="Project Image">
+                                            </div>
+                                        </div>
+                                        <!-- Content of the project card -->
+                                        <div class="sm:w-2/3 flex flex-col justify-between mt-4 sm:mt-0">
+                                            <h3 class="text-2xl font-semibold mb-3 text-gray-100">Student Registration System</h3>
+                                            <ul class="space-y-2 text-gray-300 mb-4">
+                                                <li class="flex items-start">
+                                                    <span class="mr-2 mt-1.5 text-gray-500">•</span>
+                                                    <span>An interactive application for registering users, viewing their information, and managing users.</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <span class="mr-2 mt-1.5 text-gray-500">•</span>
+                                                    <span>Showcases read-write functionality for storing and logging user data via .txt file.</span>
+                                                </li>
+                                            </ul>
+                                            <div class="flex flex-wrap">
+                                                <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-400 mr-2 mb-2 rounded-full">Python</span>
+                                                <span class="inline-block bg-amber-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-amber-400 mr-2 mb-2 rounded-full">CTkinter</span>
+                                            </div>
+                                            <div class="flex space-x-4 mt-4">
+                                                <a class="flex items-center text-gray-300 hover:text-white transition-colors duration-300" 
+                                                   href="https://github.com/ddalki1205/registration_system" target="_blank" rel="noopener noreferrer">
+                                                   <img src="assets/images/icons/github-icon.svg" alt="GitHub Icon" class="w-6 h-6 mr-2 invert">
+                                                   <span>View Code</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Registration Website PHP -->
+                                <li class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600">
+                                    <div class="flex flex-col sm:flex-row items-stretch">
+                                        <!-- Image Container -->
+                                        <div class="sm:w-1/3 mb-4 sm:mb-0 sm:mr-6">
+                                            <div class="h-full w-full overflow-hidden rounded-lg">
+                                                <img src="assets/images/projects/regis-website.png" 
+                                                     class="w-full h-full object-cover" 
+                                                     alt="Project Image">
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Content of the project card -->
+                                        <div class="sm:w-2/3 flex flex-col justify-between mt-4 sm:mt-0">
+                                            <h3 class="text-2xl font-semibold mb-3 text-gray-100">Registration Website</h3>
+                                            <ul class="space-y-2 text-gray-300 mb-4">
+                                                <li class="flex items-start">
+                                                    <span class="mr-2 mt-1.5 text-gray-500">•</span>
+                                                    <span>A full stack registration website that handles user logins, roles, and dynamic pages.</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <span class="mr-2 mt-1.5 text-gray-500">•</span>
+                                                    <span>Used MariaDB for storing user information and accessing it through connections to serve pages to users</span>
+                                                </li>
+                                            </ul>
+                                            <div class="flex flex-wrap">
+                                                <span class="inline-block bg-violet-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-violet-400 mr-2 mb-2 rounded-full">PHP</span>
+                                                <span class="inline-block bg-blue-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-blue-400 mr-2 mb-2 rounded-full">MariaDB</span>
+                                                <span class="inline-block bg-rose-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-rose-400 mr-2 mb-2 rounded-full">Apache Web Server</span>
+                                            </div>
+                                            <div class="flex space-x-4 mt-4">
+                                                <a class="flex items-center text-gray-300 hover:text-white transition-colors duration-300" 
+                                                   href="https://github.com/ddalki1205/cruz" target="_blank" rel="noopener noreferrer">
+                                                   <img src="assets/images/icons/github-icon.svg" alt="GitHub Icon" class="w-6 h-6 mr-2 invert">
+                                                   <span>View Code</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </section>
+                    </div>
+                    
+                    <!-- Education -->
+                    <div style="opacity: 1; transform: none;">
+                        <section class="mb-12">
+                        
+                            <h2 class="text-3xl font-bold mb-6 text-gray-100">Education</h2>
+                            <ul class="space-y-6">
+                                <li class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600">
+                                    <div class="flex items-start mb-2">
+                                        <div class="bg-white rounded-full p-2 mr-4 w-16 h-16 sm:w-24 sm:h-24 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                                            <img src="assets/images/lpu-icon.png" class="object-contain w-12 h-12 sm:w-20 sm:h-20">
+                                        </div>
+                                        <div class="flex-grow">
+                                            <h3 class="text-xl sm:text-2xl font-semibold text-gray-100">Lyceum of the Philippines Cavite</h3>
+                                            <p class="text-base sm:text-lg text-gray-300">Bachelor of Science in Computer Science</p>
+                                            <p class="text-sm sm:text-base text-gray-400">2027</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </main>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
