@@ -10,10 +10,25 @@
     <title>About Iya</title>
 </head>
 <body>
+    <!-- Section Navigation Dots -->
+    <div class="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-2 z-50">
+        <a href="#about" class="p-2">
+            <span class="w-3 h-0.5 bg-gray-400 opacity-30 hover:opacity-100 block transition"></span>
+        </a>
+        <a href="#skills" class="p-2">
+            <span class="w-3 h-0.5 bg-gray-400 opacity-30 hover:opacity-100 block transition"></span>
+        </a>
+        <a href="#projects" class="p-2">
+            <span class="w-3 h-0.5 bg-gray-400 opacity-30 hover:opacity-100 block transition"></span>
+        </a>
+        <a href="#education" class="p-2">
+            <span class="w-3 h-0.5 bg-gray-400 opacity-30 hover:opacity-100 block transition"></span>
+        </a>
+    </div>
     <div class="min-h-screen bg-[#111111] text-white">
         <div class="flex flex-col lg:flex-row max-w-screen-2xl mx-auto">
             <!-- Left side: About me -->
-            <section class="xl:w-2/5 static lg:sticky lg:top-12 lg:h-[calc(100vh-3rem)] mt-10 lg:mt-0 p-4 lg:p-18 xl:p-12 xl:pl-[10%] pl-6 md:pl-6 lg:pl-8 flex flex-col justify-between min-w-[300px] max-w-[800px]">
+            <section class="xl:w-2/5 static lg:sticky lg:top-12 lg:h-[calc(100vh-3rem)] mt-10 lg:mt-0 p-4 lg:p-18 xl:p-12 xl:pl-[8%] pl-6 md:pl-6 lg:pl-8 flex flex-col justify-between min-w-[300px] max-w-[800px]">
                 <div>
                     <!-- Title card -->
                     <header>
@@ -81,10 +96,10 @@
             </section>
 
             <!-- Right side -->
-            <section class="w-full xl:w-3/5 min-h-screen mx-auto lg:mx-4 xl:ml-[-8%] mt-4 md:mt-4 lg:mt-24">
+            <section id="about" class="scroll-mt-28 w-full xl:w-3/5 min-h-screen mx-auto lg:mx-4 xl:ml-[-8%] mt-4 md:mt-4 lg:mt-24">
                 <main class="p-6 xl:p-12 xl:pr-[10%]">
                     <!-- About me -->
-                    <div style="opacity: 1; transform: none;">
+                    <div id="about" style="opacity: 1; transform: none;">
                         <section class="mb-8">
                             <h2 class="text-3xl font-bold mb-4 text-gray-100">About me</h2>
                             <p class="text-gray-300 mb-4">
@@ -95,7 +110,7 @@
                     
                     <!-- Programming Languages -->
                     <div style="opacity: 1; transform: none;">
-                        <section>
+                        <section id="skills" class="scroll-mt-28">
                             <h3 class="text-2xl font-bold mb-6 text-gray-100">Programming Languages</h3>
                             
                             <!-- tools -->
@@ -148,7 +163,7 @@
 
                     <!-- PROJECTS -->
                     <div style="opacity: 1; transform: none;">
-                        <section class="mb-12">
+                        <section id="projects" class="scroll-mt-28 mb-12">
                             <h2 class="text-3xl font-bold mb-6 text-gray-100">Projects</h2>
 
                             <ul class="space-y-12">
@@ -285,7 +300,7 @@
                     
                     <!-- Education -->
                     <div style="opacity: 1; transform: none;">
-                        <section class="mb-12">
+                        <section id="education" class="scroll-mt-28 mb-12">
                         
                             <h2 class="text-3xl font-bold mb-6 text-gray-100">Education</h2>
                             <ul class="space-y-6">

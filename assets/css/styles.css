@@ -5,3 +5,7 @@ body {
     font-family: "Inter", serif;
     font-weight: "Thin";
 }
+
+html {
+    scroll-behavior: smooth;
+}
